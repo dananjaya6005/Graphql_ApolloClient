@@ -4,15 +4,15 @@ const GET_CHARACTERS = gql`
 query {
   characters {
     results {
+      id
       name
       gender
       image
     }
   }
 }
+
 `;
-
-
 
 
 export const UseCharacters=()=>{
